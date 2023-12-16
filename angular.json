@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "host": "0.0.0.0",
             "outputPath": "dist/angular-hello-world",
             "index": "src/index.html",
             "main": "src/main.ts",
